@@ -24,7 +24,7 @@ spec:
           type: "virt"
         resources:
           requests:
-            cpu: 100m
+            cpu: 0.1
             memory: 64Mi
       terminationGracePeriodSeconds: 0
       volumes:
