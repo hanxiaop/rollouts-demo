@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   labels:
     kubevirt.io/vm: vm-cirros
-  name: vm-cirros
+  name: vm-cirros-test
 spec:
   runStrategy: Halted
   template:
