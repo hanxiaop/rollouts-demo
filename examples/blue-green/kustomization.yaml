@@ -7,4 +7,4 @@ resources:
 - bluegreen-ingress.yaml
 - bluegreen-preview-service.yaml
 - bluegreen-preview-ingress.yaml
-- pod.yaml
+- crd.yaml
