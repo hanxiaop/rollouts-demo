@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: bluegreen-demo
   labels:
-    app: bluegreen-demo
+    app:    bluegreen-demo
 spec:
   replicas: 3
   revisionHistoryLimit: 1
