@@ -25,8 +25,8 @@ spec:
           protocol: TCP
         resources:
           requests:
-            memory: 32Mi
-            cpu: 5m
+            memory: 33554432
+            cpu: 0.005
   strategy:
     blueGreen:
       autoPromotionEnabled: false
