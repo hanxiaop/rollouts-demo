@@ -1,0 +1,18 @@
+---
+apiVersion: kubevirt.io/v1
+kind: KubeVirt
+metadata:
+  name: kubevirt
+  namespace: kubevirt
+spec:
+  resources:
+    requests:
+      cpu: 0.1
+      memory: 100Mi
+  certificateRotateStrategy: {}
+  configuration:
+    developerConfiguration:
+      featureGates: []
+  customizeComponents: {}
+  imagePullPolicy: IfNotPresent
+  workloadUpdateStrategy: {}
